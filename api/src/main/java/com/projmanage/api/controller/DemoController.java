@@ -17,7 +17,7 @@ import java.util.List;
         如果接口需要返回模版页面，则需要使用@Controller注解。
 @GetMapping注解，是将HTTP Get请求映射到我们自定义的hello方法上。
 */
-@Controller
+@RestController
 public class DemoController {
     @Autowired
     private DemoService demoService;
