@@ -11,3 +11,4 @@ spring:
 # mapper文件配置
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+
